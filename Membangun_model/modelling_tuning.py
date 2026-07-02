@@ -26,7 +26,7 @@ from sklearn.model_selection import GridSearchCV
 DATA = "telco_churn_preprocessing"
 TARGET = "Churn"
 DAGSHUB_OWNER = "epamemo"
-DAGSHUB_REPO = "Sistem-Machine-Learning"
+DAGSHUB_REPO = "SMSML"
 
 
 def setup_tracking():

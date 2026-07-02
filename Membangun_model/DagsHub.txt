@@ -1,8 +1,11 @@
 Tautan DagsHub MLflow Tracking (Advance):
-https://dagshub.com/epamemo/Sistem-Machine-Learning
+https://dagshub.com/epamemo/SMSML
 
 MLflow tracking URI:
-https://dagshub.com/epamemo/Sistem-Machine-Learning.mlflow
+https://dagshub.com/epamemo/SMSML.mlflow
+
+Halaman experiments (run + artefak):
+https://dagshub.com/epamemo/SMSML/experiments
 
 Cara menjalankan (Advance / online tracking):
   set MLFLOW_TRACKING_USERNAME=epamemo
