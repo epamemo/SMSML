@@ -1,0 +1,22 @@
+# Opsional: jalankan Prometheus + Grafana via Docker.
+# Exporter (port 8000) & model serve (port 8080) tetap berjalan di host.
+# Di dalam container, host diakses lewat host.docker.internal.
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus-compose.yml:/etc/prometheus/prometheus.yml
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - prometheus

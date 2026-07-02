@@ -1,0 +1,5 @@
+Tautan GitHub repository Kriteria 1 (Eksperimen, PUBLIC):
+https://github.com/epamemo/Eksperimen-SML
+
+CATATAN: isi folder "Eksperimen_SML_Epafraditus-Memoriano/" sudah di-push ke repo
+ini sebagai repository terpisah berstatus Public.

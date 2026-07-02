@@ -1,0 +1,14 @@
+Tautan DagsHub MLflow Tracking (Advance):
+https://dagshub.com/epamemo/Sistem-Machine-Learning
+
+MLflow tracking URI:
+https://dagshub.com/epamemo/Sistem-Machine-Learning.mlflow
+
+Cara menjalankan (Advance / online tracking):
+  set MLFLOW_TRACKING_USERNAME=epamemo
+  set MLFLOW_TRACKING_PASSWORD=<DagsHub token Anda>
+  set USE_DAGSHUB=1
+  python modelling_tuning.py
+
+CATATAN: Ganti URL di atas bila nama repo DagsHub Anda berbeda, dan pastikan
+repo DagsHub sudah dibuat + MLflow diaktifkan.

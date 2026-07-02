@@ -1,0 +1,6 @@
+Tautan GitHub repository Kriteria 3 (Workflow-CI, PUBLIC):
+https://github.com/epamemo/Workflow-CI
+
+CATATAN: push isi folder "Workflow-CI/" ke repo ini sebagai repository terpisah
+dan berstatus Public. Pastikan GitHub Actions berhasil dijalankan minimal 1 kali
+dan secrets DOCKERHUB_USERNAME + DOCKERHUB_TOKEN sudah diisi.
