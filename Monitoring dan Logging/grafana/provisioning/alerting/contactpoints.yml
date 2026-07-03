@@ -1,0 +1,15 @@
+apiVersion: 1
+contactPoints:
+  - orgId: 1
+    name: epamemo-email
+    receivers:
+      - uid: epamemo_email
+        type: email
+        settings:
+          addresses: epamemo.aemc@gmail.com
+          singleEmail: true
+
+policies:
+  - orgId: 1
+    receiver: epamemo-email
+    group_by: ["grafana_folder", "alertname"]
